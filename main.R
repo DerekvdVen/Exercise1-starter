@@ -5,15 +5,18 @@
 # NAME OF TEAM MEMBERS
 # DATE
 
+
+
 # Import packages
 
 # Source functions
 source('R/ageCalculator')
 
 # Demonstrate function
+ageCalculator(1996)
 
 # Demonstrate error handling
-
-
+try(ageCalculator("fish"))
+try(ageCalculator(2050))
 
 
