@@ -10,7 +10,7 @@
 # Import packages
 
 # Source functions
-source('R/ageCalculator')
+source('R/ageCalculator.R')
 
 # Demonstrate function
 ageCalculator(1996)
